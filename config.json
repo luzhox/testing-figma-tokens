@@ -1,0 +1,18 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "prefix": "agb",
+      "buildPath": "scss/",
+      "files": [{
+        "destination": "_variables.scss",
+        "format": "scss/variables",
+        "options": {
+          "outputReferences": true
+        }
+      }]
+    }
+
+  }
+}
